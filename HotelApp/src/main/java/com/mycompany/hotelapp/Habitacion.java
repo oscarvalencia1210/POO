@@ -37,6 +37,7 @@ public class Habitacion {
     
     public void reservar(){
         if (!ocupada) {
+            //EL ! sirve para negar el valor, es NOT es como usar if (ocupada == false)
             ocupada = true;
             System.out.println("La habitacion #" +numero+ "ha sido reservada exitosamente :D");
         } else {
