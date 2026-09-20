@@ -7,6 +7,11 @@ package com.mycompany.hotelapp;
 /**
  *
  * @author oscar
+ * 
+ * PARTICIPANTES
+ * SANTIAGO DE ANDA GOMEZ
+ * GAEL MORALES HERNANDES
+ * OSCAR JESUS MARTIN VALENCIA
  */
 import java.util.Scanner;
 
