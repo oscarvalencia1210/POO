@@ -16,7 +16,7 @@ public class HotelApp {
         Scanner scanner = new Scanner (System.in);
         
         //Creacion de 5 habitaciones diferentes
-        Habitacion[] habitaciones = new Habitaciones[5];
+        Habitacion[] habitaciones = new Habitacion[5];
         habitaciones[0] = new HabitacionSencilla(101, 800.00, 1);
         habitaciones[1] = new HabitacionSencilla(102, 900.00, 2);
         habitaciones[2] = new HabitacionDoble(201, 1500.00, 2);
@@ -105,6 +105,5 @@ public class HotelApp {
         }//for
         return null;
     }//metodo busqueda buscar habitacion
-    
     
 }//clase hotel app
