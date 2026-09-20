@@ -63,6 +63,7 @@ public static void main(String[] arg) {
 		}
 
     }
+	
 }
 /*buscar propiedad de agregacion en un diagrama de clases*/
 /*es una relación de asociación débil que indica que una clase es parte de otra, pero los objetos componentes pueden existir de forma independiente */
