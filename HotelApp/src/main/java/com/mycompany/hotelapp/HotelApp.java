@@ -64,7 +64,7 @@ public class HotelApp {
                         System.out.println("Ingresa el numero de noches: ");
                         int noches = scanner.nextInt();
                         double total = habCosto.calcularCosto(noches);
-                        System.out.println("El costo total por " +noches+ "noches es: $ "+total);
+                        System.out.println("El costo total por " +noches+ " noches es: $ "+total);
                     } else {
                         System.out.println("Habitacion no encontrada :C");
                     }//if-else

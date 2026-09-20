@@ -21,7 +21,7 @@ public class Habitacion {
     
     public void mostrarInfo(){
         String estado = ocupada ? "Ocupada" : "Libre";
-        System.out.println("Habitación #" +numero+ " | Precio:  $" +precioNoche+ " | Estado: " +estado);
+        System.out.println("Habitacion #" +numero+ " | Precio:  $" +precioNoche+ " | Estado: " +estado);
         /*
         String estado = ocupada ? "Ocupada" : "Libre"; el signo de pregunta es una forma
         hacer resumudo un if-else
@@ -39,18 +39,18 @@ public class Habitacion {
         if (!ocupada) {
             //EL ! sirve para negar el valor, es NOT es como usar if (ocupada == false)
             ocupada = true;
-            System.out.println("La habitacion #" +numero+ "ha sido reservada exitosamente :D");
+            System.out.println("La habitacion #" +numero+ " ha sido reservada exitosamente :D");
         } else {
-            System.out.println("Lo sentimos, la hbaitacion #"+numero+ "ya fue reservada :C");
+            System.out.println("Lo sentimos, la hbaitacion #"+numero+ " ya fue reservada :C");
         }
     }//reservar
     
     public void liberar(){
         if (ocupada){
             ocupada = false;
-            System.out.println("La habitacion #"+numero+ "ha sido liberada"); 
+            System.out.println("La habitacion #"+numero+ " ha sido liberada"); 
         } else {
-            System.out.println("La habitacion #"+numero+ "ya estaba libre");
+            System.out.println("La habitacion #"+numero+ " ya estaba libre");
         }
     }//liberar
     
