@@ -19,7 +19,7 @@ public class Circulo extends Figuras_Geometricas{
 
     @Override
     public void dibujar() {
-        System.out.println("\nDibujando un círculo...");
+        System.out.println("\nDibujando un circulo...");
         System.out.println("      ***      ");
         System.out.println("   *       *   ");
         System.out.println("  *         *  ");
