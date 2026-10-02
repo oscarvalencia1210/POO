@@ -8,9 +8,17 @@ package com.mycompany.ejercicioarraylist;
  *
  * @author oscar
  */
+import java.util.*;
 public class EjercicioArraylist {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}
+        Scanner sn = new Scanner(System.in);
+        ArrayList tareas = new ArrayList();
+        for(int a=0; a < 3; a++){
+            System.out.println("Agrega una tarea");
+            tareas.add(sn.nextLine());
+        }//for
+            System.out.println("Mostrar tareas");
+            System.out.println(tareas);
+    }//main
+}//clase Ejercicio Arraylist
