@@ -8,9 +8,20 @@ package com.mycompany.e_arraylistclase;
  *
  * @author oscar
  */
+
+
 public class Usuario {
 
     String correo, contraseña;
+
+    public Usuario() {
+    }
+
+    public Usuario(String correo, String contraseña) {
+        this.correo = correo;
+        this.contraseña = contraseña;
+    }
+
     public String getCorreo() {
         return correo;
     }
@@ -27,11 +38,8 @@ public class Usuario {
         this.contraseña = contraseña;
     }
     
-    public Usuario() {
+    @Override
+    public String toString() {
+        return "Correo: " + correo + " | Contraseña: " + contraseña;
     }
-    public Usuario(String correo, String contraseña) {
-        this.correo = correo;
-        this.contraseña = contraseña;
-    }
-
-}//clase Usuario
+}
